@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       Max's PMK
-      <div style={{ width: '355px', position: 'relative', border: '1px solid black' }}>
+      <div style={{ width: '355px', position: 'relative',  }}>
         {boxes.map((index) => (
           <GridBox key={index} binding={bindings[index] ?? null} setBinding={() => {
             setBindings({...bindings, [index]: keyPressed})
